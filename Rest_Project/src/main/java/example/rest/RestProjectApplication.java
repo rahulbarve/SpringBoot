@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RestProjectApplication {
 
 	public static void main(String[] args) {
-		System.out.println("WELCOME TO SPRING REST APPLICATION");
+		System.out.println("WELCOME TO SPRING REST APPLICATION. Thank You");
 		SpringApplication.run(RestProjectApplication.class, args);
 	}
 

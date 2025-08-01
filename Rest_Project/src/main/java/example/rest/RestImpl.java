@@ -10,7 +10,7 @@ public class RestImpl {//This class is meant for exposing REST Endpoints
 	//End Point: /do-greet => Response: "Welcome to REST"
 	@RequestMapping("/do-greet")//Marks this method as Request Handling method.
 	public String doGreet() {
-		return "Welcome to SPRING REST !! Have a GREAT DAY";
+		return "Welcome to SPRING REST !! Have a GREAT DAY Ahead, ALL THE BEST";
 	}
 	
 	//End Point: /get-message => Response: Message Object (content, deliveredOn)
